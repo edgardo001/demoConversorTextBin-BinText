@@ -1,0 +1,5 @@
+c:\users\datasoft-edgardo\documents\visual studio 2017\Projects\demoConversorTextoBinario\demoConversorTextoBinario\bin\Debug\demoConversorTextoBinario.exe.config
+c:\users\datasoft-edgardo\documents\visual studio 2017\Projects\demoConversorTextoBinario\demoConversorTextoBinario\bin\Debug\demoConversorTextoBinario.exe
+c:\users\datasoft-edgardo\documents\visual studio 2017\Projects\demoConversorTextoBinario\demoConversorTextoBinario\bin\Debug\demoConversorTextoBinario.pdb
+c:\users\datasoft-edgardo\documents\visual studio 2017\Projects\demoConversorTextoBinario\demoConversorTextoBinario\obj\Debug\demoConversorTextoBinario.exe
+c:\users\datasoft-edgardo\documents\visual studio 2017\Projects\demoConversorTextoBinario\demoConversorTextoBinario\obj\Debug\demoConversorTextoBinario.pdb
