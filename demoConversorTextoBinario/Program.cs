@@ -66,13 +66,13 @@ namespace demoConversorTextoBinario
                 //Creo el byteArray y lo instancio con el tamaño del "ArrayCadenaBinaria", este byteArray sera usado para reinterpretar a texto legible (no binario)
                 byte[] textoClaro = new byte[ArrayCadenaBinaria.Length];
 
-                //for (int i = 0; i < ArrayCadenaBinaria.Length; i++)
-                //{
-                //    //Recorro la cadena de string para poderlos procesar con los metodos de conversion
-                //    int valor = ToInt(ArrayCadenaBinaria[i]);
-                //    //Convierto el valor a un byte (0-255) y lo almacena en el byte[] con tamaño predefinido
-                //    textoClaro[i] = Convert.ToByte(valor);
-                //}
+                for (int i = 0; i < ArrayCadenaBinaria.Length; i++)
+                {
+                    //Recorro la cadena de string para poderlos procesar con los metodos de conversion
+                    int valor = ToInt(ArrayCadenaBinaria[i]);
+                    //Convierto el valor a un byte (0-255) y lo almacena en el byte[] con tamaño predefinido
+                    textoClaro[i] = Convert.ToByte(valor);
+                }
 
                 //int posicion = 0;//Usado para mantener la posicion del byte[] texto claro
                 //foreach (var item in ArrayCadenaBinaria)
@@ -81,7 +81,7 @@ namespace demoConversorTextoBinario
                 //    textoClaro[posicion] = Convert.ToByte(valor);
                 //    posicion += 1;
                 //}
-                
+
                 //Opcion con operacion Lambda
                 //ArrayCadenaBinaria
                 //    .ToList()//Convierto a lista para poder usar select
